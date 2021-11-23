@@ -1,0 +1,58 @@
+<!-- Interal CSS is when you separate the HTML from the CSS, but keep it within the document -->
+<!-- Internal CSS requires the use of SELECTORS (to tell the document which tags to apply styles to) because styles are no longer attached to the tag -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <!-- we use internal CSS with the STYLE tag between the body and the head -->
+  <!-- EVERYTHING in this style tag is CSS - it is applied to the document automatically -->
+  <style>
+    /* in this case, the CSS is not attached to the HTML */
+    /* {
+        font-size: large;
+    } */
+
+    /* THREE ways to select a certain element */
+    /* SELECT BY TAG - changes ALL the tags of a certain type on the page */
+    p {
+      font-size: large;
+    }
+
+    /* SELECT BY ID - changes all the tags with a certain ID */
+    /*  this will ONLY affect all tags with the ID redTag */
+    #redTag {
+      color: red;
+    }
+
+    /* SELECT BY CLASS - changes all the tags with the given class */
+    /* this will affect ALL tags that have the given class */
+    .red-tag {
+      color: red;
+    }
+  </style>
+
+  <body>
+    <!-- this p tag will be lorge -->
+    <p>This is some content</p>
+
+    <!-- we are assigning an ID of redTag to the first h2 so we can refer to it in the CSS -->
+    <!-- ID has to be UNIQUE, you can (or should) only assign it to one tag -->
+    <!-- the first h1 will be red, the second one will be unchanged -->
+    <h2 id="redTag">This is some content</h2>
+    <h2>This is some content</h2>
+
+    <!-- Assigning a CLASS to the first three h3s -->
+    <!-- Classes do NOT have to be unique, you can assign the same class to as many tags as you want -->
+    <h3 class="red-tag">hello 3</h3>
+    <h3 class="red-tag">hello 3</h3>
+    <h3 class="red-tag">hello 3</h3>
+    <h3>hello 3</h3>
+    <h3>hello 3</h3>
+    <h3>hello 3</h3>
+  </body>
+</html>

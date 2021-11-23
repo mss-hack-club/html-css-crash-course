@@ -1,0 +1,16 @@
+CSS = Cascading Style Sheets
+
+Used to style HTML tags, decide how they show up on the page.
+
+All CSS looks like this:
+
+[ insert element here ] {
+    color: red;
+    font-size: large;
+    font-weight: bold;
+}
+
+There are three types of CSS:
+    - Inline CSS (within the line)
+    - Internal CSS (not within the same line, but within the same document)
+    - External CSS (in a separate document, linked in the HTML)

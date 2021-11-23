@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>External CSS</title>
+
+    <!-- A LINK tag is used to tell the HTML to read the main.css file -->
+    <!-- rel = relationship -->
+    <!-- href = where to look -->
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <!-- The CSS that used to be here is now in main.css -->
+
+  <body>
+    <!-- this p tag will be lorge -->
+    <p>This is some content</p>
+
+    <!-- we are assigning an ID of redTag to the first h2 so we can refer to it in the CSS -->
+    <!-- ID has to be UNIQUE, you can (or should) only assign it to one tag -->
+    <!-- the first h1 will be red, the second one will be unchanged -->
+    <h2 id="redTag">This is some content</h2>
+    <h2>This is some content</h2>
+
+    <!-- Assigning a CLASS to the first three h3s -->
+    <!-- Classes do NOT have to be unique, you can assign the same class to as many tags as you want -->
+    <h3 class="red-tag">hello 3</h3>
+    <h3 class="red-tag">hello 3</h3>
+    <h3 class="red-tag">hello 3</h3>
+    <h3>hello 3</h3>
+    <h3>hello 3</h3>
+    <h3>hello 3</h3>
+  </body>
+</html>

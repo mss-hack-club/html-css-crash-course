@@ -1,0 +1,22 @@
+/* in this case, the CSS is not attached to the HTML */
+/* {
+    font-size: large;
+} */
+
+/* THREE ways to select a certain element */
+/* SELECT BY TAG - changes ALL the tags of a certain type on the page */
+p {
+  font-size: large;
+}
+
+/* SELECT BY ID - changes all the tags with a certain ID */
+/*  this will ONLY affect all tags with the ID redTag */
+#redTag {
+  color: red;
+}
+
+/* SELECT BY CLASS - changes all the tags with the given class */
+/* this will affect ALL tags that have the given class */
+.red-tag {
+  color: red;
+}

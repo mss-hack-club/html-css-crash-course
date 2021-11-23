@@ -1,0 +1,3 @@
+Finally, we can use EXTERNAL CSS to declare styles.
+
+- External CSS = the exact same thing as internal, except in another document
